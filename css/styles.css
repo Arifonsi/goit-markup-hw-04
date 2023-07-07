@@ -105,6 +105,12 @@ a {
 }
 .bg-dark {
   background-color: #2f303a;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(91, 26, 26, 0.4)
+    ),
+    url("./imagenes/fondotitulo.jpg");
   background-image: url(/imagenes/fondotitulo.jpg);
   background-size: cover;
 }
@@ -154,10 +160,6 @@ a {
   border-radius: 4px;
 }
 .svg-whos {
-  width: 270px;
-  height: 120px;
-  top: 774px;
-  left: 815px;
   border-radius: 4px;
   margin-top: 25px;
   margin-left: 100px;
@@ -189,14 +191,6 @@ a {
   justify-content: space-between;
   color: #f5f4fa;
 }
-.h2-subtitle {
-  color: #212121;
-  text-align: center;
-  font-size: 36px;
-  font-family: Roboto;
-  font-weight: 700;
-  letter-spacing: 1.08px;
-}
 
 .app-deck {
   position: relative;
@@ -209,6 +203,15 @@ a {
   background: rgba(47, 48, 58, 0.8);
 }
 
+.h2-subtitle {
+  color: #212121;
+  text-align: center;
+  font-size: 36px;
+  font-family: Roboto;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+  margin-top: 90px;
+}
 .our-team {
   display: flex;
   justify-content: space-between;
@@ -254,7 +257,6 @@ a {
 
 .icons-social-svg {
   display: flex;
-  align-items: center;
   justify-content: center;
   gap: 25px;
   padding-left: 0px;
@@ -299,9 +301,7 @@ a {
 
 .customers-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+  gap: 40px;
 }
 
 .customer-list {
@@ -314,20 +314,18 @@ a {
   align-items: center;
 }
 
+.svg-customers {
+  width: 106px;
+  height: 52.826087951660156px;
+  padding: 7px 33px 0px 32px;
+  fill: rgba(175, 177, 184, 1);
+}
+
 .customer-list:hover {
   border: solid #2196f3 1px;
 }
 .customer-list:hover .svg-customers {
   fill: #2196f3;
-}
-
-.svg-customers {
-  width: 106px;
-  height: 52.826087951660156px;
-  top: 2461.0869750976562px;
-  left: 247px;
-  padding: 7px 33px 0px 32px;
-  fill: rgba(175, 177, 184, 1);
 }
 
 footer {
@@ -454,7 +452,7 @@ footer .container {
   box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
 }
 
-.h3-imgservices {
+.h3-imgservic.es {
   width: 322px;
   color: #212121;
   font-size: 18px;
