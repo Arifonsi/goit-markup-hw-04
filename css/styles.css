@@ -110,8 +110,8 @@ a {
       rgba(47, 48, 58, 0.4),
       rgba(91, 26, 26, 0.4)
     ),
-    url("./imagenes/fondotitulo.jpg");
-  background-image: url(/imagenes/fondotitulo.jpg);
+    url("/imagenes/fondotitulo.jpg");
+  background-image: url(../imagenes/fondotitulo.jpg);
   background-size: cover;
 }
 
